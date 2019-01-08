@@ -10,6 +10,8 @@ public class FacebookTest {
 
 	public static void main(String[] args) throws FindFailed, InterruptedException {
 
+		System.out.println( "Hellow we are test GitHub");
+		
 		Screen sc = new Screen();
 		Pattern email = new Pattern("D:\\Advance Selenium Softwares1 (2)\\Sikuly\\Facebook\\email.PNG");
 		Pattern pswd = new Pattern("D:\\Advance Selenium Softwares1 (2)\\Sikuly\\Facebook\\pswd.PNG");
