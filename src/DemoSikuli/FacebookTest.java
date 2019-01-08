@@ -21,6 +21,8 @@ public class FacebookTest {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 
+		System.out.println("Demo changes from git to eclips");
+		
 		driver.manage().window().maximize();
 		Thread.sleep(1000);
 		sc.type(email, "deepalithorat23@gmail.com");
